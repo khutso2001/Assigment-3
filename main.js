@@ -76,7 +76,7 @@ const obj = {
 };
 
 function person(obj) {
-  return (newObj = { ...obj, private: { ...obj.private } }); //დავსპრედე და დავაბრუნე იგივე მნიშვნელობების ახალი ობიექტი
+  return (newObj = { ...obj, private: { ...obj.private } }); //მოვახდინე დესტრუქტურიზაცია და დავაბრუნე იგივე მნიშვნელობების ახალი ობიექტი
 }
 console.log(person(obj)); //ახალი ობიექტი
 
